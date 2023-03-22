@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * main - print _putchar
- * is written edgar
+ * is by written edgar
  * Return: 0
  */
 
