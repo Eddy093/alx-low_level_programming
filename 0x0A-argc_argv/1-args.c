@@ -2,20 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - print the num of arg passed to the oprogram
- * @argc: num of arg
- * @argv: array of arg
- *
- * Return: Always 0
+ * main - Entry point
+ * Description: Prints the num of args passed
+ * @argc: No of cmd line args
+ * @argv: Array name
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
+	(void) argv; /*ignore argv*/
+	printf("%d\n", argc - 1);
 	return (0);
 }
